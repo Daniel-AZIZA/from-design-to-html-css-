@@ -1,0 +1,137 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: 'roboto', sans-serif;
+}
+
+.container
+{
+    margin: 0 auto;
+    margin-top: 0.1vh;
+    height: 70vh;
+    width: 1000px;
+    max-width: 100%;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.banner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+.fa-newspaper
+{
+    font-size: 3rem;
+}
+
+.date
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+
+.navBar
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    gap: 0.5em;
+    width: 100%;
+
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+
+    padding: 1rem;
+}
+
+.itemBar
+{
+    text-decoration: none;
+    color: black;
+}
+
+.main
+{
+    display: flex;
+    width: 100%;
+}
+
+.article
+{
+    width: 33.3%;
+    padding: 1.4rem;
+    padding-top: 1rem;
+    margin-top: 2.8rem;
+}
+
+.b
+{
+    border-left: 2px solid #c4c4c4;
+    border-right: 2px solid #c4c4c4;
+}
+
+.img
+{
+    width: 95%;
+}
+
+p
+{
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .main
+    {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .article
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .b
+    {
+        border: none;
+    }
+
+    .img
+    {
+        width: 300px;
+        max-width: 100%;
+    }
+}

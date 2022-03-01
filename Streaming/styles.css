@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    padding: 0 1em;
+    margin: 0;
+
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.container
+{
+    margin: 0 auto;
+
+    width: 1000px;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0;
+    margin-top: 4vh;
+    border-bottom: 5px solid white;
+}
+
+a
+{
+    padding: 0.8em 1.6em;
+
+    color: black;
+    background-color: white;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.logo
+{
+    padding: 0;
+    margin-bottom: 2vh;
+
+    background-color: black;
+    color: white;
+
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.fa-play
+{
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.25em;
+}
+
+.netStream
+{
+    margin: 1.5vh 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main
+{
+    margin-top: 3vh;
+
+    display: flex;
+
+
+    width: 100%;
+}
+
+.film
+{
+    flex-grow: 1;
+    text-align: center;
+}
+
+img
+{
+    width: 85%;
+}
+
+.film > h1
+{
+    color: white;
+    font-size: 2.2em;
+}
+
+.film > p
+{
+    font-size: 1.5em;
+    margin: 0 2vw;
+}
+
+.a > h1
+{
+    margin-top: 3.8vh;
+}
+
+.a > p
+{
+    color: #00D69F;
+    margin-bottom: 5vh;
+}
+
+.b > h1 
+{
+    margin-top: 5vh;
+}
+
+.b > p
+{
+    color: #E75050;
+    margin-bottom: 5vh;
+}
+
+.c > h1
+{
+    margin-top: 3vh;
+}
+
+.c > p
+{
+    color: #D27752;
+    margin-bottom: 5vh;
+}
+
+@media only screen and (max-width:768px) {
+    
+    .view, .subscribe
+    {
+        display: none;
+    }
+    
+    .logo
+    {
+        margin: 0 auto;
+    }
+
+    .main
+    {
+        flex-direction: column;
+    }
+
+    .b, .c
+    {
+        margin-top: 10vh;
+    }
+}

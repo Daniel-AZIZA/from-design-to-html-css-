@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    padding: 2rem;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+
+    background-image: url(https://10websites-design-to-html-css.netlify.app/portfolio-design/bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.container
+{
+    max-width: 100%;
+}
+
+.fa-quote-right
+{
+    display: none;
+}
+
+/* .fa-quote-right
+{
+    position: fixed;
+    top: 18.6vh;
+    left: 57.1vw;
+    
+    color: white;
+    font-size: 30rem;
+    opacity: 0.3;
+    
+    z-index: -1;
+} */
+
+.description
+{
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 80vw;
+
+    line-height: 6.7vh;
+    font-size: 2rem;
+    color: #29415E;
+}
+
+.title
+{
+    background-color: white;
+
+    display: inline-block;
+
+    padding: 1.5rem;
+
+
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.skills
+{
+    margin-top: 5.5rem;
+    margin-right: 3rem;
+
+    font-size: 2rem;
+}
+
+.itemList:first-child
+{
+    color: #29415E;
+    font-size: 3rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.contact_link
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
+
+.footer
+{
+    float: right;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.footer_web
+{
+    width: fit-content;
+    padding: 2rem;
+    margin: 0;
+    margin-left: 4.6em;
+
+    color: white;
+    background-color: #556272;
+    
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.footer_dev
+{
+    width: fit-content;
+    padding: 2rem;
+    margin: 0;
+
+    color: white;
+    background-color: #556272;
+    
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width:819px) {
+
+    .fa-quote-right
+    {
+        display:  block;
+
+        position: fixed;
+        top: 18.6vh;
+        left: 57.1vw;
+        
+        color: white;
+        font-size: 30rem;
+        opacity: 0.3;
+        
+        z-index: -1;
+    }
+
+    .description
+    {
+        margin-top: 10vh;
+        margin-left: 1rem;
+
+        width: 700px;
+        max-width: 100%;
+        
+        line-height: 5vh;
+
+        font-size: 2rem;
+        color: #29415E;
+    }
+
+    .title
+    {
+        background-color: white;
+
+        display: inline-block;
+        position: relative;
+
+        padding: 1.5rem;
+
+        font-size: 5rem;
+        font-weight: 300;
+    }
+    
+    .contact
+    {
+        position: fixed;
+        top: 5vh;
+        right: 5vw;
+    }
+
+    .contact_link
+    {
+        white-space: nowrap;
+    }
+    
+    .contact_link:first-child
+    {
+        margin-left: 3.3em;
+    }
+
+    .contact_link:last-child
+    {
+        margin-top: -2vh;
+    }
+
+    .skills
+    {
+        float: right;
+        margin-top: -18vh;
+    }
+
+    .footer
+    {
+       float: none;
+       margin-top: -1vh;
+       margin-left: 20vw;
+    }
+}

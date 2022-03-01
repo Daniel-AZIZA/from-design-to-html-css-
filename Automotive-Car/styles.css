@@ -1,0 +1,271 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 100%;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    height: 54.5rem;
+    background-image: url(https://10websites-design-to-html-css.netlify.app/automotive-car-design/car-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.fa-car
+{
+    display: flex;
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 22.3rem;
+    padding-top: 1rem;
+}
+
+.banner
+{
+    display: flex;
+    color: white;
+    margin-left: 25.4rem;
+    margin-top: -2.55rem;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 350;
+    letter-spacing: 1px;
+}
+
+.navList 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30rem;
+    margin-left: 53.1rem;
+    margin-top: -1.7rem;
+}
+
+.navItem
+{
+    color: white;
+    text-decoration: none;
+
+}
+
+.select
+{
+    font-weight: 900;
+}
+
+.BA
+{
+    display: flex;
+    background-color: rgb(39, 193, 253);
+    padding: 1rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.YCR
+{
+    display: flex;
+    color: rgb(39, 193, 253);
+    letter-spacing: -0.1rem;
+    font-size: 3.8em;
+    margin-top: 20.4rem;
+    margin-left: 22rem;
+
+}
+
+.p1
+{
+    display: flex;
+    color: white;
+    font-size: 2em;
+    margin-top: 2rem;
+    margin-left: 22rem;
+}
+
+.bouton
+{
+    display: flex;
+    color: white;
+    width: 18.5rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(39, 193, 253);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 22rem;
+    text-decoration: none;
+}
+
+footer
+{
+    display: flex;
+    margin-top: 15.5rem;
+    height: 6.6rem;
+    background-color: black;
+}
+
+.a
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.2rem;
+    margin-left: 22rem;
+}
+
+.b
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.2rem;
+    margin-left: 12.7rem;
+}
+
+.c
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.2rem;
+    margin-left: 12.7rem;
+}
+
+strong
+{
+    color: rgb(39, 193, 253);
+    font-size: 1rem;
+}
+
+.pFooter
+{
+    color: white;
+    font-weight: 350;
+}
+
+.navFooter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10em;
+}
+ .navFooter > li 
+ {
+     padding: 10px 4em;
+ }
+
+
+
+
+
+
+
+
+
+
+/*
+.navFooter
+{
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    margin-top: 15.7rem;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.strongFooter, .pFooter
+{
+
+      margin-left: 25rem;
+}
+
+.strongFooter
+{
+    margin-top: 2rem;
+    color: rgb(39, 193, 253);
+    font-weight: 550;
+}
+
+.pFooter
+{
+    color: white;
+}
+*/
+/*
+.background
+{
+    height: 54.5rem;
+    background-image: url(https://10websites-design-to-html-css.netlify.app/automotive-car-design/car-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.header
+{
+    display: flex;
+    border: 2px solid red;
+    padding-top: 0.9%;
+    padding-left: 21%;
+    font-size: 250%;
+    color: white;
+}
+
+.fa-car
+{
+    display: flex;
+    padding-top: 0.1%;
+}
+
+.banner
+{
+    display: flex;
+    margin-top: 0.1;
+    margin-left: 0.7%;
+    font-size: 101%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navList
+{
+    display: flex;
+    margin-left: 69.5%;
+    margin-top: 4.5%;
+    justify-content: space-between;
+    width: 145%;
+}
+
+li
+{
+    list-style: none;
+}
+
+.navItem
+{
+    display: flex;
+    font-size: 40%;
+    text-decoration: none;
+    color: white;
+}
+
+.BA
+{
+    display: flex;
+    background-color: rgb(39, 193, 253);
+    font-size: 40%;
+    padding: 15%;
+
+}
+
+*/

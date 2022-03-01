@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #FFE8C8;
+    border-left: 30px solid #764400;
+    border-right: 30px solid #764400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper
+{
+    padding-top: 4%;
+    padding-left: 21.5%;
+}
+
+.fa-tshirt
+{
+    display: block;
+    font-size: 64px;
+    color: #764400;
+}
+
+.banner
+{
+    display: flex;
+    margin-top: 2%;
+    
+}
+
+.firstTittle
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    color: #A66000;
+    transform: skewX(-5deg)
+}
+
+.bouton
+{
+    position: relative;
+    margin-left: 23%;
+    text-decoration: none;
+    background-color: #A66000;
+    padding: 14px 25px;
+    font-size: 40px;
+    color: white;
+    transform: skewX(-28deg);
+    font-weight: bold;
+}
+
+.h2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-left: -2%;
+    
+}
+
+.title
+{
+    margin-top: 3%;
+    padding-right: 10%;
+    font-size: 3rem;
+    transform: skewX(-5deg)
+
+}
+
+.img-mannequin
+{
+    box-shadow: 15px 15px 0px #A66000;
+    margin-top: 3rem;
+}
+
+.text
+{
+    display: block;
+    margin-top: -28%;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: bold;
+}
+
+.dressing
+{
+    margin-top: 6%;
+    box-shadow: -15px -15px #A66000;
+
+}
+
+ 
+.Bouton
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 1rem 8rem;
+    margin-left: 5rem;
+    top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 300;
+    transform: skewX(-10deg);
+}
+
+.Bouton::after
+{
+    position: absolute;
+    content: "";
+    margin-top: 0rem;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skewX(-25deg);
+    background-color: #A66000;
+    z-index: -1;
+}
